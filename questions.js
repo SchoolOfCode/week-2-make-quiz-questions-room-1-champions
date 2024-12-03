@@ -46,19 +46,19 @@ correct_explanation : "This question is right because blahblah"
 
 */
 
-const question1 = {
-  question_text : "What are the 4 elements of high performance recovery routine?",
-  question_type : "multiple_choice",
-  options : [
+const question1 = [
+  {
+  question_text: "What are the 4 elements of high performance recovery routine?",
+  question_type: "multiple_choice",
+  options: [
     "focus, warm-down, break, recovery", 
     "warm-up, focus, break, warm-down",
     "preparation, focus, warm-down, recovery",
-    "hunger, preparation, challenge, recovery"],
-  correct_option : options[2],
-  correct_explanation : "This answer is right because preparation allows you to mentally transition into a working state. Warm-down allows you to transition from focus to recovery."
-};
-
-console.log(question1);
+    "hunger, preparation, challenge, recovery"
+  ],
+  correct_option: 2,
+  correct_explanation: "This answer is right because preparation allows you to mentally transition into a working state. Warm-down allows you to transition from focus to recovery."
+}]
 
 
 const question2 = {
