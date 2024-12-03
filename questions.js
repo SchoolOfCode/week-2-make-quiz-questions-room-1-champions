@@ -2,13 +2,6 @@
 
 /*
 
-
-
-*/
-
-/*
-
-
 const question1 = {
   question_text = "";
   question_type = "multiple_choice";
@@ -24,10 +17,7 @@ const question1 = {
 - Must have 4 choices to choose from per question...
 - Questions must be added to the questions array...
 
-
-
 questions = Array of objects.
-
 
 question_text = string, has text of question.
 question_type = string with value "multiple_choice".
@@ -45,6 +35,8 @@ correct_option : options[0/1/2/3],
 correct_explanation : "This question is right because blahblah"
 
 */
+
+const questions = [ question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, ];
 
 const question1 = [
   {
@@ -154,32 +146,4 @@ const question10 = {
   correct_option : options[3],
   correct_explanation : "This question is right because when there is a problem, you need to plan how to solve it, and then utilise that planning to create the code."
 }
-
-const questions = [ question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, ];
-
-// Don't worry about this, we're just exporting the questions
-module.exports = questions;
-
-
-/*
-
-## Getting Started
-
-2. Add your questions as objects in the array, following the schema above
-3. Make sure your questions:
-   - Are about Week 1 content
-   - Have 4 options each
-   - Have clear explanations for the correct answers
-   - Follow the exact schema format
-
-## Tips
-
-- This is great retrieval and spaced repetitions for your Week 1 learning to create meaningful questions
-- Make sure your JSON is properly formatted (commas, brackets, etc.)
-- Be creative with your questions while staying focused on Week 1 content
-
-Good luck! Your questions might end up being used to help future bootcampers review their learning!
-
-
-
 
