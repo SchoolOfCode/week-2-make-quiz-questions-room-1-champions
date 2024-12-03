@@ -36,7 +36,7 @@ correct_explanation : "This question is right because blahblah"
 
 */
 
-const questions = [ question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, ];
+const questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, ];
 
 const question1 = [
   {
@@ -53,17 +53,19 @@ const question1 = [
 }]
 
 
-const question2 = {
+const question2 = [
+  {
   question_text : "What roles are in pair programming?",
   question_type : "multiple_choice",
   options : [
   "Biker and Driver", 
   "Hiker and Race car", 
   "Swimmer and Diver", 
-  "Driver and Navigator"],
+  "Driver and Navigator"
+],
   correct_option : options[3],
   correct_explanation : "This answer is right because the Driver writes the code, and the Navigator provides constant feedback."
-}
+}]
 
 const question3 = {
   question_text : "Of these answers, which concepts are related to artificial neural networks? All of the concepts in the answer must be correct.",
